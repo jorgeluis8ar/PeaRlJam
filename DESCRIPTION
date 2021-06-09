@@ -1,0 +1,20 @@
+Package: PeaRlJam
+Title: A ggplot extension to upgrade graphs to a fully Grunge scene. 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jorge",
+           family = "Ochoa",
+           role = c("aut", "cre"),
+           email = "jorgeluis8a@yahoo.com")
+Description: Using covers from all Pearl Jam's studio albums, the package adds color palettes to ggplot graphs. The ultimate objetive if to offer Pearl Jam aficionados the opportunity to theme graphs with each one of Pearl Jam's album covers.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    dplyr,
+    ggplot
+Suggests:
+    colorfindr
